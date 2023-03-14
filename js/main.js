@@ -1,5 +1,7 @@
 window.onload = () => {
-	document.getElementById('preloader').style.display = 'none';
+	setTimeout(() => {
+		document.getElementById('preloader').style.display = 'none';
+	}, 2500);
 }
 // Header On Scroll
 window.onscroll = () => {
