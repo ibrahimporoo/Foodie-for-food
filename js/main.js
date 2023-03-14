@@ -1,3 +1,6 @@
+window.onload = () => {
+	document.getElementById('preloader').style.display = 'none';
+}
 // Header On Scroll
 window.onscroll = () => {
 	if(window.scrollY > 0) {
